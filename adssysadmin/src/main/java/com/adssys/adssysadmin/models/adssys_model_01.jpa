@@ -1,0 +1,2946 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity-mappings ptype="MONOLITH" ppkg="com.adssys.adssysadmin.generated_code" epkg="domain" v="5.4.3" rws="_16592621652202" Pws="_16592621652202" cws="_16592621652202" persistenceUnitName="DEFAULT_PU" sm="false" xs="false" id="_16592621652201" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entity compositePrimaryKeyClass="UserPK" abs="false" class="User" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_16592654025743">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="country_code" id="_16593041273286">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="language_code" id="_16593041305007">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="user_type_id" id="_16593042313468">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="gender_id" id="_16593042352579">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_165930423729310">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="photo" id="_165930423903711">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="about" id="_165930425549312">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="phone" id="_165930425758913">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="phone_hidden" id="_165930425939714">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="username" id="_165930438930816">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="email" id="_165930438536315">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="email_verified_at" id="_165930591262641">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="password" id="_165930439123717">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="remember_token" id="_165930440742918">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="can_be_impersonate" id="_165930441134219">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="disable_comments" id="_165930443302120">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="ip_addr" id="_165930443655821">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="provider" id="_165930443898922">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="provider_id" id="_165930444986023">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="email_token" id="_165930445180124">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="phone_token" id="_165930445344625">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="verified_email" id="_165930447277426">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="verified_phone" id="_165930447481727">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="accept_terms" id="_165930449650228">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="accept_marketing_offers" id="_165930450239329">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="time_zone" id="_165930453608230">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="blocked" id="_165930459382231">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="closed" id="_165930459616632">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="last_activity" id="_165930461575133">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="last_login_at" id="_165930560916339">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="deleted_at" id="_165930561143240">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="created_at" id="_165930560472737">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="updated_at" id="_165930560732838">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_16592654026464">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="User.findAll">
+            <query>Select e from User e</query>
+        </nq>
+        <nq e="false" name="User.findByCountry_code">
+            <query>Select u from User u where u.country_code=:country_code</query>
+        </nq>
+        <nq e="false" name="User.findByLanguage_code">
+            <query>Select u from User u where u.language_code=:language_code</query>
+        </nq>
+        <nq e="false" name="User.findByUser_type_id">
+            <query>Select u from User u where u.user_type_id=:user_type_id</query>
+        </nq>
+        <nq e="false" name="User.findByGender_id">
+            <query>Select u from User u where u.gender_id=:gender_id</query>
+        </nq>
+        <nq e="false" name="User.findByName">
+            <query>Select u from User u where u.name=:name</query>
+        </nq>
+        <nq e="false" name="User.findByPhoto">
+            <query>Select u from User u where u.photo=:photo</query>
+        </nq>
+        <nq e="false" name="User.findByAbout">
+            <query>Select u from User u where u.about=:about</query>
+        </nq>
+        <nq e="false" name="User.findByPhone">
+            <query>Select u from User u where u.phone=:phone</query>
+        </nq>
+        <nq e="false" name="User.findByPhone_hidden">
+            <query>Select u from User u where u.phone_hidden=:phone_hidden</query>
+        </nq>
+        <nq e="false" name="User.findByEmail">
+            <query>Select u from User u where u.email=:email</query>
+        </nq>
+        <nq e="false" name="User.findByUsername">
+            <query>Select u from User u where u.username=:username</query>
+        </nq>
+        <nq e="false" name="User.findByPassword">
+            <query>Select u from User u where u.password=:password</query>
+        </nq>
+        <nq e="false" name="User.findByRemember_token">
+            <query>Select u from User u where u.remember_token=:remember_token</query>
+        </nq>
+        <nq e="false" name="User.findByCan_be_impersonate">
+            <query>Select u from User u where u.can_be_impersonate=:can_be_impersonate</query>
+        </nq>
+        <nq e="false" name="User.findByDisable_comments">
+            <query>Select u from User u where u.disable_comments=:disable_comments</query>
+        </nq>
+        <nq e="false" name="User.findByIp_addr">
+            <query>Select u from User u where u.ip_addr=:ip_addr</query>
+        </nq>
+        <nq e="false" name="User.findByProvider">
+            <query>Select u from User u where u.provider=:provider</query>
+        </nq>
+        <nq e="false" name="User.findByProvider_id">
+            <query>Select u from User u where u.provider_id=:provider_id</query>
+        </nq>
+        <nq e="false" name="User.findByEmail_token">
+            <query>Select u from User u where u.email_token=:email_token</query>
+        </nq>
+        <nq e="false" name="User.findByPhone_token">
+            <query>Select u from User u where u.phone_token=:phone_token</query>
+        </nq>
+        <nq e="false" name="User.findByVerified_email">
+            <query>Select u from User u where u.verified_email=:verified_email</query>
+        </nq>
+        <nq e="false" name="User.findByVerified_phone">
+            <query>Select u from User u where u.verified_phone=:verified_phone</query>
+        </nq>
+        <nq e="false" name="User.findByAccept_terms">
+            <query>Select u from User u where u.accept_terms=:accept_terms</query>
+        </nq>
+        <nq e="false" name="User.findByAccept_marketing_offers">
+            <query>Select u from User u where u.accept_marketing_offers=:accept_marketing_offers</query>
+        </nq>
+        <nq e="false" name="User.findByTime_zone">
+            <query>Select u from User u where u.time_zone=:time_zone</query>
+        </nq>
+        <nq e="false" name="User.findByBlocked">
+            <query>Select u from User u where u.blocked=:blocked</query>
+        </nq>
+        <nq e="false" name="User.findByClosed">
+            <query>Select u from User u where u.closed=:closed</query>
+        </nq>
+        <nq e="false" name="User.findByLast_activity">
+            <query>Select u from User u where u.last_activity=:last_activity</query>
+        </nq>
+        <nq e="false" name="User.findByCreated_at">
+            <query>Select u from User u where u.created_at=:created_at</query>
+        </nq>
+        <nq e="false" name="User.findByUpdated_at">
+            <query>Select u from User u where u.updated_at=:updated_at</query>
+        </nq>
+        <nq e="false" name="User.findByLast_login_at">
+            <query>Select u from User u where u.last_login_at=:last_login_at</query>
+        </nq>
+        <nq e="false" name="User.findByDeleted_at">
+            <query>Select u from User u where u.deleted_at=:deleted_at</query>
+        </nq>
+        <nq e="false" name="User.findByEmail_verified_at">
+            <query>Select u from User u where u.email_verified_at=:email_verified_at</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="LanguagePK" abs="false" class="Language" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165930550134434">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="abbr" id="_16593475949565">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="locale" id="_16593475968736">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_16593475985457">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="_native" id="_16593476136209">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="flag" id="_165934762072710">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="app_name" id="_165934764570211">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="script" id="_165934764939912">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="direction" id="_165934765084013">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="date_format" id="_165934796290314">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_16593485641485">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="_default" id="_16593485660016">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_16593485679517">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_16593485701278">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_16593486289779">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_165934863127710">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="deleted_at" id="_165934863341111">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165930550134635">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Language.findAll">
+            <query>Select e from Language e</query>
+        </nq>
+        <nq e="false" name="Language.findByAbbr">
+            <query>Select l from Language l where l.abbr=:abbr</query>
+        </nq>
+        <nq e="false" name="Language.findByLocale">
+            <query>Select l from Language l where l.locale=:locale</query>
+        </nq>
+        <nq e="false" name="Language.findByName">
+            <query>Select l from Language l where l.name=:name</query>
+        </nq>
+        <nq e="false" name="Language.findBy_native">
+            <query>Select l from Language l where l._native=:_native</query>
+        </nq>
+        <nq e="false" name="Language.findBy_native">
+            <query>Select l from Language l where l._native=:_native</query>
+        </nq>
+        <nq e="false" name="Language.findByFlag">
+            <query>Select l from Language l where l.flag=:flag</query>
+        </nq>
+        <nq e="false" name="Language.findByApp_name">
+            <query>Select l from Language l where l.app_name=:app_name</query>
+        </nq>
+        <nq e="false" name="Language.findByScript">
+            <query>Select l from Language l where l.script=:script</query>
+        </nq>
+        <nq e="false" name="Language.findByDirection">
+            <query>Select l from Language l where l.direction=:direction</query>
+        </nq>
+        <nq e="false" name="Language.findByDate_format">
+            <query>Select l from Language l where l.date_format=:date_format</query>
+        </nq>
+        <nq e="false" name="Language.findByActive">
+            <query>Select l from Language l where l.active=:active</query>
+        </nq>
+        <nq e="false" name="Language.findBy_default">
+            <query>Select l from Language l where l._default=:_default</query>
+        </nq>
+        <nq e="false" name="Language.findByParent_id">
+            <query>Select l from Language l where l.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="Language.findByLft">
+            <query>Select l from Language l where l.lft=:lft</query>
+        </nq>
+        <nq e="false" name="Language.findByRgt">
+            <query>Select l from Language l where l.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="Language.findByDepth">
+            <query>Select l from Language l where l.depth=:depth</query>
+        </nq>
+        <nq e="false" name="Language.findByDeleted_at">
+            <query>Select l from Language l where l.deleted_at=:deleted_at</query>
+        </nq>
+        <nq e="false" name="Language.findByAttribute3">
+            <query>Select l from Language l where l.attribute3=:attribute3</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="AdvertisingPK" abs="false" class="Advertising" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165934884477513">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="integration" id="_165934885518216">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="is_responsive" id="_165934885630217">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="slug" id="_165934885868518">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="provider_name" id="_165934886368419">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="description" id="_165934886496620">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="tracking_code_large" id="_165934886770321">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="tracking_code_medium" id="_165934886891022">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="tracking_code_small" id="_165934887020423">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_165934887152424">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165934884477614">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Advertising.findAll">
+            <query>Select e from Advertising e</query>
+        </nq>
+        <nq e="false" name="Advertising.findByIntegration">
+            <query>Select a from Advertising a where a.integration=:integration</query>
+        </nq>
+        <nq e="false" name="Advertising.findByIs_responsive">
+            <query>Select a from Advertising a where a.is_responsive=:is_responsive</query>
+        </nq>
+        <nq e="false" name="Advertising.findBySlug">
+            <query>Select a from Advertising a where a.slug=:slug</query>
+        </nq>
+        <nq e="false" name="Advertising.findByProvider_name">
+            <query>Select a from Advertising a where a.provider_name=:provider_name</query>
+        </nq>
+        <nq e="false" name="Advertising.findByDescription">
+            <query>Select a from Advertising a where a.description=:description</query>
+        </nq>
+        <nq e="false" name="Advertising.findByTracking_code_large">
+            <query>Select a from Advertising a where a.tracking_code_large=:tracking_code_large</query>
+        </nq>
+        <nq e="false" name="Advertising.findByTracking_code_medium">
+            <query>Select a from Advertising a where a.tracking_code_medium=:tracking_code_medium</query>
+        </nq>
+        <nq e="false" name="Advertising.findByTracking_code_small">
+            <query>Select a from Advertising a where a.tracking_code_small=:tracking_code_small</query>
+        </nq>
+        <nq e="false" name="Advertising.findByActive">
+            <query>Select a from Advertising a where a.active=:active</query>
+        </nq>
+        <nq e="false" name="Advertising.findBySlug">
+            <query>Select a from Advertising a where a.slug=:slug</query>
+        </nq>
+        <nq e="false" name="Advertising.findByAttribute">
+            <query>Select a from Advertising a where a.attribute=:attribute</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="BlacklistPK" abs="false" class="Blacklist" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165934899153427">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="type" id="_165934901484430">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="entry" id="_165934901643131">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165934899153428">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Blacklist.findAll">
+            <query>Select e from Blacklist e</query>
+        </nq>
+        <nq e="false" name="Blacklist.findByType">
+            <query>Select b from Blacklist b where b.type=:type</query>
+        </nq>
+        <nq e="false" name="Blacklist.findByEntry">
+            <query>Select b from Blacklist b where b.entry=:entry</query>
+        </nq>
+        <nq e="false" name="Blacklist.findByAttribute2">
+            <query>Select b from Blacklist b where b.attribute2=:attribute2</query>
+        </nq>
+        <nq e="false" name="Blacklist.findByAttribute3">
+            <query>Select b from Blacklist b where b.attribute3=:attribute3</query>
+        </nq>
+        <nq e="false" name="Blacklist.findByAttribute4">
+            <query>Select b from Blacklist b where b.attribute4=:attribute4</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="CachePK" abs="false" class="Cache" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165934926705235">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="key" id="_165934961154538">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="value" id="_165934961368339">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="expiration" id="_165934961549740">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165934926705236">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Cache.findAll">
+            <query>Select e from Cache e</query>
+        </nq>
+        <nq e="false" name="Cache.findByKey">
+            <query>Select c from Cache c where c.key=:key</query>
+        </nq>
+        <nq e="false" name="Cache.findByValue">
+            <query>Select c from Cache c where c.value=:value</query>
+        </nq>
+        <nq e="false" name="Cache.findByExpiration">
+            <query>Select c from Cache c where c.expiration=:expiration</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="CategoriePK" abs="false" class="Categorie" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165934963986341">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_165934966649044">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_165934966795945">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="slug" id="_165934966995846">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="description" id="_165934967161547">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="hide_description" id="_165934967442548">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="picture" id="_165934967666549">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="icon_class" id="_165934971571350">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="seo_title" id="_165934971794651">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="seo_description" id="_165934972079552">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="seo_keywords" id="_165934972272353">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_165934972550954">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_165934972803255">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_165934972989256">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="type" id="_165934977788157">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="is_for_permanent" id="_165934977988758">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_165934978162359">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165934963986342">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Categorie.findAll">
+            <query>Select e from Categorie e</query>
+        </nq>
+        <nq e="false" name="Categorie.findByParent_id">
+            <query>Select c from Categorie c where c.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="Categorie.findByName">
+            <query>Select c from Categorie c where c.name=:name</query>
+        </nq>
+        <nq e="false" name="Categorie.findBySlug">
+            <query>Select c from Categorie c where c.slug=:slug</query>
+        </nq>
+        <nq e="false" name="Categorie.findByDescription">
+            <query>Select c from Categorie c where c.description=:description</query>
+        </nq>
+        <nq e="false" name="Categorie.findByHide_description">
+            <query>Select c from Categorie c where c.hide_description=:hide_description</query>
+        </nq>
+        <nq e="false" name="Categorie.findByPicture">
+            <query>Select c from Categorie c where c.picture=:picture</query>
+        </nq>
+        <nq e="false" name="Categorie.findByIcon_class">
+            <query>Select c from Categorie c where c.icon_class=:icon_class</query>
+        </nq>
+        <nq e="false" name="Categorie.findBySeo_title">
+            <query>Select c from Categorie c where c.seo_title=:seo_title</query>
+        </nq>
+        <nq e="false" name="Categorie.findBySeo_description">
+            <query>Select c from Categorie c where c.seo_description=:seo_description</query>
+        </nq>
+        <nq e="false" name="Categorie.findBySeo_keywords">
+            <query>Select c from Categorie c where c.seo_keywords=:seo_keywords</query>
+        </nq>
+        <nq e="false" name="Categorie.findByLft">
+            <query>Select c from Categorie c where c.lft=:lft</query>
+        </nq>
+        <nq e="false" name="Categorie.findByRgt">
+            <query>Select c from Categorie c where c.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="Categorie.findByDepth">
+            <query>Select c from Categorie c where c.depth=:depth</query>
+        </nq>
+        <nq e="false" name="Categorie.findByType">
+            <query>Select c from Categorie c where c.type=:type</query>
+        </nq>
+        <nq e="false" name="Categorie.findByIs_for_permanent">
+            <query>Select c from Categorie c where c.is_for_permanent=:is_for_permanent</query>
+        </nq>
+        <nq e="false" name="Categorie.findByActive">
+            <query>Select c from Categorie c where c.active=:active</query>
+        </nq>
+        <nq e="false" name="Categorie.findByAttribute">
+            <query>Select c from Categorie c where c.attribute=:attribute</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="ContinentPK" abs="false" class="Continent" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165934994760961">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="code" id="_165934996652664">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_165934996840265">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_165934996965866">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165934994760962">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Continent.findAll">
+            <query>Select e from Continent e</query>
+        </nq>
+        <nq e="false" name="Continent.findByCode">
+            <query>Select c from Continent c where c.code=:code</query>
+        </nq>
+        <nq e="false" name="Continent.findByName">
+            <query>Select c from Continent c where c.name=:name</query>
+        </nq>
+        <nq e="false" name="Continent.findByActive">
+            <query>Select c from Continent c where c.active=:active</query>
+        </nq>
+        <nq e="false" name="Continent.findByAttribute3">
+            <query>Select c from Continent c where c.attribute3=:attribute3</query>
+        </nq>
+        <nq e="false" name="Continent.findByAttribute4">
+            <query>Select c from Continent c where c.attribute4=:attribute4</query>
+        </nq>
+        <nq e="false" name="Continent.findByAttribute5">
+            <query>Select c from Continent c where c.attribute5=:attribute5</query>
+        </nq>
+        <nq e="false" name="Continent.findByAttribute6">
+            <query>Select c from Continent c where c.attribute6=:attribute6</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="CurrenciePK" abs="false" class="Currencie" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165935014228671">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="code" id="_165935023891274">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_165935024085675">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="symbol" id="_165935024277776">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="html_entities" id="_165935024482477">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="in_left" id="_165935024736078">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="decimal_places" id="_165935026858579">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="decimal_separator" id="_165935027072880">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="thousand_separator" id="_165935027284981">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165935014228672">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Currencie.findAll">
+            <query>Select e from Currencie e</query>
+        </nq>
+        <nq e="false" name="Currencie.findByCode">
+            <query>Select c from Currencie c where c.code=:code</query>
+        </nq>
+        <nq e="false" name="Currencie.findByName">
+            <query>Select c from Currencie c where c.name=:name</query>
+        </nq>
+        <nq e="false" name="Currencie.findBySymbol">
+            <query>Select c from Currencie c where c.symbol=:symbol</query>
+        </nq>
+        <nq e="false" name="Currencie.findByHtml_entities">
+            <query>Select c from Currencie c where c.html_entities=:html_entities</query>
+        </nq>
+        <nq e="false" name="Currencie.findByIn_left">
+            <query>Select c from Currencie c where c.in_left=:in_left</query>
+        </nq>
+        <nq e="false" name="Currencie.findByDecimal_places">
+            <query>Select c from Currencie c where c.decimal_places=:decimal_places</query>
+        </nq>
+        <nq e="false" name="Currencie.findByDecimal_separator">
+            <query>Select c from Currencie c where c.decimal_separator=:decimal_separator</query>
+        </nq>
+        <nq e="false" name="Currencie.findByThousand_separator">
+            <query>Select c from Currencie c where c.thousand_separator=:thousand_separator</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="FieldPK" abs="false" class="Field" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165935306174882">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="belongs_to" id="_165935308309385">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_165935308492486">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="type" id="_165935308709287">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="_max" id="_165935308854888">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="default_value" id="_165935308996689">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="required" id="_165935309118990">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="use_as_filter" id="_165935309306691">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="help" id="_165935325177292">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_165935325422593">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165935306174883">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Field.findAll">
+            <query>Select e from Field e</query>
+        </nq>
+        <nq e="false" name="Field.findByBelongs_to">
+            <query>Select f from Field f where f.belongs_to=:belongs_to</query>
+        </nq>
+        <nq e="false" name="Field.findByName">
+            <query>Select f from Field f where f.name=:name</query>
+        </nq>
+        <nq e="false" name="Field.findByType">
+            <query>Select f from Field f where f.type=:type</query>
+        </nq>
+        <nq e="false" name="Field.findBy_max">
+            <query>Select f from Field f where f._max=:_max</query>
+        </nq>
+        <nq e="false" name="Field.findByDefault_value">
+            <query>Select f from Field f where f.default_value=:default_value</query>
+        </nq>
+        <nq e="false" name="Field.findByRequired">
+            <query>Select f from Field f where f.required=:required</query>
+        </nq>
+        <nq e="false" name="Field.findByUse_as_filter">
+            <query>Select f from Field f where f.use_as_filter=:use_as_filter</query>
+        </nq>
+        <nq e="false" name="Field.findByHelp">
+            <query>Select f from Field f where f.help=:help</query>
+        </nq>
+        <nq e="false" name="Field.findByActive">
+            <query>Select f from Field f where f.active=:active</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="HomeSectionPK" abs="false" class="HomeSection" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165935335508994">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="method" id="_165935337570997">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_165935337752298">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="value" id="_165935337939499">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="view" id="_1659353381194100">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="field" id="_1659353385187102">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_1659353386770103">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_1659353390439104">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_1659353392203105">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_1659357103788110">
+                <xwm/>
+                <xm/>
+            </basic>
+            <element-collection target-class="java.lang.String" collection-type="java.util.List" cit="java.util.ArrayList" v="true" xvt="" name="active" id="_1659353383129101">
+                <xwm/>
+                <xm/>
+            </element-collection>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165935335508995">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="HomeSection.findAll">
+            <query>Select e from HomeSection e</query>
+        </nq>
+        <nq e="false" name="HomeSection.findByMethod">
+            <query>Select g from HomeSection g where g.method=:method</query>
+        </nq>
+        <nq e="false" name="HomeSection.findByName">
+            <query>Select g from HomeSection g where g.name=:name</query>
+        </nq>
+        <nq e="false" name="HomeSection.findByValue">
+            <query>Select g from HomeSection g where g.value=:value</query>
+        </nq>
+        <nq e="false" name="HomeSection.findByView">
+            <query>Select g from HomeSection g where g.view=:view</query>
+        </nq>
+        <nq e="false" name="HomeSection.findByField">
+            <query>Select g from HomeSection g where g.field=:field</query>
+        </nq>
+        <nq e="false" name="HomeSection.findByParent_id">
+            <query>Select g from HomeSection g where g.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="HomeSection.findByLft">
+            <query>Select g from HomeSection g where g.lft=:lft</query>
+        </nq>
+        <nq e="false" name="HomeSection.findByRgt">
+            <query>Select g from HomeSection g where g.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="HomeSection.findByDepth">
+            <query>Select h from HomeSection h where h.depth=:depth</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="GenderPK" abs="false" class="Gender" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659353432048106">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659353447226109">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659353432048107">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Gender.findAll">
+            <query>Select e from Gender e</query>
+        </nq>
+        <nq e="false" name="Gender.findByName">
+            <query>Select g from Gender g where g.name=:name</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="Meta_tagPK" abs="false" class="Meta_tag" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659357525688111">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="page" id="_1659357537621114">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="title" id="_1659357539780115">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="description" id="_1659357541917116">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="keywords" id="_1659357543702117">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659357545291118">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659357525688112">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Meta_tag.findAll">
+            <query>Select e from Meta_tag e</query>
+        </nq>
+        <nq e="false" name="Meta_tag.findByPage">
+            <query>Select m from Meta_tag m where m.page=:page</query>
+        </nq>
+        <nq e="false" name="Meta_tag.findByTitle">
+            <query>Select m from Meta_tag m where m.title=:title</query>
+        </nq>
+        <nq e="false" name="Meta_tag.findByDescription">
+            <query>Select m from Meta_tag m where m.description=:description</query>
+        </nq>
+        <nq e="false" name="Meta_tag.findByKeywords">
+            <query>Select m from Meta_tag m where m.keywords=:keywords</query>
+        </nq>
+        <nq e="false" name="Meta_tag.findByActive">
+            <query>Select m from Meta_tag m where m.active=:active</query>
+        </nq>
+        <nq e="false" name="Meta_tag.findByAttribute5">
+            <query>Select m from Meta_tag m where m.attribute5=:attribute5</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PackagePK" abs="false" class="Package" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659357910335120">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659357925684123">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="short_name" id="_1659357927781124">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="ribbon" id="_1659357929864125">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="has_badge" id="_1659357932229126">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="price" id="_1659357934265127">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="currency_code" id="_1659357939681128">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="promo_duration" id="_1659357941927129">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="duration" id="_1659357943743130">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="pictures_limit" id="_1659357945660131">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="description" id="_1659357948086132">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="facebook_ads_duration" id="_1659357949882133">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="google_ads_duration" id="_1659357951734134">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="twitter_ads_duration" id="_1659357953655135">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="linkedin_ads_duration" id="_1659357956262136">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="recommended" id="_1659357962401137">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_1659357968791138">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_1659357970739139">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_1659357973741140">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_1659357975685141">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659357978520142">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659357910335121">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Package.findAll">
+            <query>Select e from Package e</query>
+        </nq>
+        <nq e="false" name="Package.findByName">
+            <query>Select e from Package e where e.name=:name</query>
+        </nq>
+        <nq e="false" name="Package.findByShort_name">
+            <query>Select e from Package e where e.short_name=:short_name</query>
+        </nq>
+        <nq e="false" name="Package.findByRibbon">
+            <query>Select e from Package e where e.ribbon=:ribbon</query>
+        </nq>
+        <nq e="false" name="Package.findByHas_badge">
+            <query>Select e from Package e where e.has_badge=:has_badge</query>
+        </nq>
+        <nq e="false" name="Package.findByPrice">
+            <query>Select e from Package e where e.price=:price</query>
+        </nq>
+        <nq e="false" name="Package.findByCurrency_code">
+            <query>Select e from Package e where e.currency_code=:currency_code</query>
+        </nq>
+        <nq e="false" name="Package.findByPromo_duration">
+            <query>Select e from Package e where e.promo_duration=:promo_duration</query>
+        </nq>
+        <nq e="false" name="Package.findByDuration">
+            <query>Select e from Package e where e.duration=:duration</query>
+        </nq>
+        <nq e="false" name="Package.findByPictures_limit">
+            <query>Select e from Package e where e.pictures_limit=:pictures_limit</query>
+        </nq>
+        <nq e="false" name="Package.findByDescription">
+            <query>Select e from Package e where e.description=:description</query>
+        </nq>
+        <nq e="false" name="Package.findByFacebook_ads_duration">
+            <query>Select e from Package e where e.facebook_ads_duration=:facebook_ads_duration</query>
+        </nq>
+        <nq e="false" name="Package.findByGoogle_ads_duration">
+            <query>Select e from Package e where e.google_ads_duration=:google_ads_duration</query>
+        </nq>
+        <nq e="false" name="Package.findByTwitter_ads_duration">
+            <query>Select e from Package e where e.twitter_ads_duration=:twitter_ads_duration</query>
+        </nq>
+        <nq e="false" name="Package.findByLinkedin_ads_duration">
+            <query>Select e from Package e where e.linkedin_ads_duration=:linkedin_ads_duration</query>
+        </nq>
+        <nq e="false" name="Package.findByRecommended">
+            <query>Select e from Package e where e.recommended=:recommended</query>
+        </nq>
+        <nq e="false" name="Package.findByParent_id">
+            <query>Select e from Package e where e.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="Package.findByLft">
+            <query>Select e from Package e where e.lft=:lft</query>
+        </nq>
+        <nq e="false" name="Package.findByRgt">
+            <query>Select e from Package e where e.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="Package.findByDepth">
+            <query>Select e from Package e where e.depth=:depth</query>
+        </nq>
+        <nq e="false" name="Package.findByActive">
+            <query>Select e from Package e where e.active=:active</query>
+        </nq>
+        <nq e="false" name="Package.findByAttribute20">
+            <query>Select e from Package e where e.attribute20=:attribute20</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PagePK" abs="false" class="Page" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659358578670144">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_1659376750696147">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="type" id="_1659376752432148">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659376754450149">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="slug" id="_1659376756129150">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="title" id="_1659376757691151">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="picture" id="_1659376759104152">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="content" id="_1659376760608153">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="external_link" id="_1659376761944154">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name_color" id="_1659376763713155">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="title_color" id="_1659376765391156">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="target_blank" id="_1659376767119157">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="seo_title" id="_1659376768809158">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="seo_description" id="_1659376770462159">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="seo_keywords" id="_1659376772010160">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_1659376773446161">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_1659376774904162">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_1659376776563163">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="excluded_from_footer" id="_1659376777686164">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659376779290165">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659358578670145">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Page.findAll">
+            <query>Select e from Page e</query>
+        </nq>
+        <nq e="false" name="Page.findByParent_id">
+            <query>Select p from Page p where p.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="Page.findByType">
+            <query>Select p from Page p where p.type=:type</query>
+        </nq>
+        <nq e="false" name="Page.findByName">
+            <query>Select p from Page p where p.name=:name</query>
+        </nq>
+        <nq e="false" name="Page.findBySlug">
+            <query>Select p from Page p where p.slug=:slug</query>
+        </nq>
+        <nq e="false" name="Page.findByTitle">
+            <query>Select p from Page p where p.title=:title</query>
+        </nq>
+        <nq e="false" name="Page.findByPicture">
+            <query>Select p from Page p where p.picture=:picture</query>
+        </nq>
+        <nq e="false" name="Page.findByContent">
+            <query>Select p from Page p where p.content=:content</query>
+        </nq>
+        <nq e="false" name="Page.findByExternal_link">
+            <query>Select p from Page p where p.external_link=:external_link</query>
+        </nq>
+        <nq e="false" name="Page.findByName_color">
+            <query>Select p from Page p where p.name_color=:name_color</query>
+        </nq>
+        <nq e="false" name="Page.findByTitle_color">
+            <query>Select p from Page p where p.title_color=:title_color</query>
+        </nq>
+        <nq e="false" name="Page.findByTarget_blank">
+            <query>Select p from Page p where p.target_blank=:target_blank</query>
+        </nq>
+        <nq e="false" name="Page.findBySeo_title">
+            <query>Select p from Page p where p.seo_title=:seo_title</query>
+        </nq>
+        <nq e="false" name="Page.findBySeo_description">
+            <query>Select p from Page p where p.seo_description=:seo_description</query>
+        </nq>
+        <nq e="false" name="Page.findBySeo_keywords">
+            <query>Select p from Page p where p.seo_keywords=:seo_keywords</query>
+        </nq>
+        <nq e="false" name="Page.findByLft">
+            <query>Select p from Page p where p.lft=:lft</query>
+        </nq>
+        <nq e="false" name="Page.findByRgt">
+            <query>Select p from Page p where p.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="Page.findByDepth">
+            <query>Select p from Page p where p.depth=:depth</query>
+        </nq>
+        <nq e="false" name="Page.findByExcluded_from_footer">
+            <query>Select p from Page p where p.excluded_from_footer=:excluded_from_footer</query>
+        </nq>
+        <nq e="false" name="Page.findByActive">
+            <query>Select p from Page p where p.active=:active</query>
+        </nq>
+        <nq e="false" name="Page.findByAttribute19">
+            <query>Select p from Page p where p.attribute19=:attribute19</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PasswordResetPK" abs="false" class="PasswordReset" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659377251842167">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="email" id="_1659377286812170">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="phone" id="_1659377288151171">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="token" id="_1659377289714172">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659377251843168">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="PasswordReset.findAll">
+            <query>Select e from PasswordReset e</query>
+        </nq>
+        <nq e="false" name="PasswordReset.findByEmail">
+            <query>Select p from PasswordReset p where p.email=:email</query>
+        </nq>
+        <nq e="false" name="PasswordReset.findByPhone">
+            <query>Select p from PasswordReset p where p.phone=:phone</query>
+        </nq>
+        <nq e="false" name="PasswordReset.findByToken">
+            <query>Select p from PasswordReset p where p.token=:token</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PaymentMethodPK" abs="false" class="PaymentMethod" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659377451765173">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659377560667176">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="display_name" id="_1659377562697177">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="description" id="_1659377564098178">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="has_ccbox" id="_1659377565514179">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="is_compatible_api" id="_1659377566781180">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="countries" id="_1659377568253181">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_1659377569756182">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_1659377571126183">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_1659377572654184">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_1659377779988185">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659377785251186">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659377451766174">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="PaymentMethod.findAll">
+            <query>Select e from PaymentMethod e</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByName">
+            <query>Select p from PaymentMethod p where p.name=:name</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByDisplay_name">
+            <query>Select p from PaymentMethod p where p.display_name=:display_name</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByDescription">
+            <query>Select p from PaymentMethod p where p.description=:description</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByHas_ccbox">
+            <query>Select p from PaymentMethod p where p.has_ccbox=:has_ccbox</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByIs_compatible_api">
+            <query>Select p from PaymentMethod p where p.is_compatible_api=:is_compatible_api</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByCountries">
+            <query>Select p from PaymentMethod p where p.countries=:countries</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByLft">
+            <query>Select p from PaymentMethod p where p.lft=:lft</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByRgt">
+            <query>Select p from PaymentMethod p where p.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByDepth">
+            <query>Select p from PaymentMethod p where p.depth=:depth</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByParent_id">
+            <query>Select p from PaymentMethod p where p.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="PaymentMethod.findByActive">
+            <query>Select p from PaymentMethod p where p.active=:active</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PermissionPK" abs="false" class="Permission" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659377823324187">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659377838972190">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="guard_name" id="_1659377845087191">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659377823324188">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Permission.findAll">
+            <query>Select e from Permission e</query>
+        </nq>
+        <nq e="false" name="Permission.findByName">
+            <query>Select p from Permission p where p.name=:name</query>
+        </nq>
+        <nq e="false" name="Permission.findByGuard_name">
+            <query>Select p from Permission p where p.guard_name=:guard_name</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PostTypePK" abs="false" class="PostType" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659379478489192">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659379486276195">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_1659379487862196">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_1659379489310197">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_1659379491149198">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659379513053199">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659379478489193">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="PostType.findAll">
+            <query>Select e from PostType e</query>
+        </nq>
+        <nq e="false" name="PostType.findByName">
+            <query>Select e from PostType e where e.name=:name</query>
+        </nq>
+        <nq e="false" name="PostType.findByLft">
+            <query>Select e from PostType e where e.lft=:lft</query>
+        </nq>
+        <nq e="false" name="PostType.findByRgt">
+            <query>Select e from PostType e where e.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="PostType.findByDepth">
+            <query>Select e from PostType e where e.depth=:depth</query>
+        </nq>
+        <nq e="false" name="PostType.findByActive">
+            <query>Select e from PostType e where e.active=:active</query>
+        </nq>
+        <nq e="false" name="PostType.findByAttribute1">
+            <query>Select e from PostType e where e.attribute1=:attribute1</query>
+        </nq>
+        <nq e="false" name="PostType.findByAttribute2">
+            <query>Select e from PostType e where e.attribute2=:attribute2</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="ReportTypePK" abs="false" class="ReportType" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659380046757202">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659380075338205">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659380046757203">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="ReportType.findAll">
+            <query>Select e from ReportType e</query>
+        </nq>
+        <nq e="false" name="ReportType.findByName">
+            <query>Select r from ReportType r where r.name=:name</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="SessionPK" abs="false" class="Session" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659380088297206">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="user_id" id="_1659380104060209">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="ip_address" id="_1659380105653210">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="user_agent" id="_1659380106807211">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="payload" id="_1659380108561212">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="last_activity" id="_1659380126349213">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659380088297207">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Session.findAll">
+            <query>Select e from Session e</query>
+        </nq>
+        <nq e="false" name="Session.findByUser_id">
+            <query>Select s from Session s where s.user_id=:user_id</query>
+        </nq>
+        <nq e="false" name="Session.findByIp_address">
+            <query>Select s from Session s where s.ip_address=:ip_address</query>
+        </nq>
+        <nq e="false" name="Session.findByUser_agent">
+            <query>Select s from Session s where s.user_agent=:user_agent</query>
+        </nq>
+        <nq e="false" name="Session.findByPayload">
+            <query>Select s from Session s where s.payload=:payload</query>
+        </nq>
+        <nq e="false" name="Session.findByLast_activity">
+            <query>Select s from Session s where s.last_activity=:last_activity</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="SettingPK" abs="false" class="Setting" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659385353262214">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="key" id="_1659393395558217">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659393402449218">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="value" id="_1659393404899219">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="description" id="_1659393406462220">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="field" id="_1659393408035221">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_1659393409587222">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_1659393411662223">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_1659393414803224">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_1659393450323225">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659393452251226">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659385353263215">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Setting.findAll">
+            <query>Select e from Setting e</query>
+        </nq>
+        <nq e="false" name="Setting.findByKey">
+            <query>Select s from Setting s where s.key=:key</query>
+        </nq>
+        <nq e="false" name="Setting.findByName">
+            <query>Select s from Setting s where s.name=:name</query>
+        </nq>
+        <nq e="false" name="Setting.findByValue">
+            <query>Select s from Setting s where s.value=:value</query>
+        </nq>
+        <nq e="false" name="Setting.findByDescription">
+            <query>Select s from Setting s where s.description=:description</query>
+        </nq>
+        <nq e="false" name="Setting.findByField">
+            <query>Select s from Setting s where s.field=:field</query>
+        </nq>
+        <nq e="false" name="Setting.findByParent_id">
+            <query>Select s from Setting s where s.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="Setting.findByLft">
+            <query>Select s from Setting s where s.lft=:lft</query>
+        </nq>
+        <nq e="false" name="Setting.findByRgt">
+            <query>Select s from Setting s where s.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="Setting.findByDepth">
+            <query>Select s from Setting s where s.depth=:depth</query>
+        </nq>
+        <nq e="false" name="Setting.findByActive">
+            <query>Select s from Setting s where s.active=:active</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="UserTypePK" abs="false" class="UserType" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165951909770643">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_165951931128046">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_165951931277647">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165951909771544">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="UserType.findAll">
+            <query>Select e from UserType e</query>
+        </nq>
+        <nq e="false" name="UserType.findByName">
+            <query>Select u from UserType u where u.name=:name</query>
+        </nq>
+        <nq e="false" name="UserType.findByActive">
+            <query>Select u from UserType u where u.active=:active</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="CategoryPK" abs="false" class="Category" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165951940702548">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="category_id" id="_165951943119451">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="field_id" id="_165951943454852">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="disabled_in_subcategories" id="_165951943671453">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_165951943842854">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_165951944177355">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_165951950940756">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_165951951122057">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165951940702649">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Category.findAll">
+            <query>Select e from Category e</query>
+        </nq>
+        <nq e="false" name="Category.findByCategory_id">
+            <query>Select c from Category c where c.category_id=:category_id</query>
+        </nq>
+        <nq e="false" name="Category.findByField_id">
+            <query>Select c from Category c where c.field_id=:field_id</query>
+        </nq>
+        <nq e="false" name="Category.findByDisabled_in_subcategories">
+            <query>Select c from Category c where c.disabled_in_subcategories=:disabled_in_subcategories</query>
+        </nq>
+        <nq e="false" name="Category.findByParent_id">
+            <query>Select c from Category c where c.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="Category.findByLft">
+            <query>Select c from Category c where c.lft=:lft</query>
+        </nq>
+        <nq e="false" name="Category.findByRgt">
+            <query>Select c from Category c where c.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="Category.findByDepth">
+            <query>Select c from Category c where c.depth=:depth</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="CategoryFieldPK" abs="false" class="CategoryField" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165951982673758">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="category_id" id="_165951984587661">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="field_id" id="_165951984823162">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="disabled_in_subcategories" id="_165951985116963">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_165951985425264">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_165951985645165">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_165951985862766">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_165951986179267">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165951982673859">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="CategoryField.findAll">
+            <query>Select e from CategoryField e</query>
+        </nq>
+        <nq e="false" name="CategoryField.findByCategory_id">
+            <query>Select c from CategoryField c where c.category_id=:category_id</query>
+        </nq>
+        <nq e="false" name="CategoryField.findByField_id">
+            <query>Select c from CategoryField c where c.field_id=:field_id</query>
+        </nq>
+        <nq e="false" name="CategoryField.findByDisabled_in_subcategories">
+            <query>Select c from CategoryField c where c.disabled_in_subcategories=:disabled_in_subcategories</query>
+        </nq>
+        <nq e="false" name="CategoryField.findByParent_id">
+            <query>Select c from CategoryField c where c.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="CategoryField.findByLft">
+            <query>Select c from CategoryField c where c.lft=:lft</query>
+        </nq>
+        <nq e="false" name="CategoryField.findByRgt">
+            <query>Select c from CategoryField c where c.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="CategoryField.findByDepth">
+            <query>Select c from CategoryField c where c.depth=:depth</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="CountriePK" abs="false" class="Countrie" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165952009851868">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="code" id="_165952012032571">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="iso3" id="_165952012191672">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="iso_numeric" id="_165952012377773">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="fips" id="_165952012547774">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_165952012702275">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="area" id="_165952012898576">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="population" id="_165952013077977">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="continent_code" id="_165952013222778">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="tld" id="_165952013430079">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="currency_code" id="_165952013587080">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="phone" id="_165952013845181">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="postal_code_format" id="_165952024061282">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="postal_code_regex" id="_165952024196083">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="languages" id="_165952024388184">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="neighbours" id="_165952024593485">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="equivalent_fips_code" id="_165952026433486">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="time_zone" id="_165952026561987">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="date_format" id="_165952026714988">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="datetime_format" id="_165952026871089">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="background_image" id="_165952028509790">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="admin_type" id="_165952028679691">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="admin_field_active" id="_165952029670592">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_165952029828693">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165952009851969">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Countrie.findAll">
+            <query>Select e from Countrie e</query>
+        </nq>
+        <nq e="false" name="Countrie.findByCode">
+            <query>Select c from Countrie c where c.code=:code</query>
+        </nq>
+        <nq e="false" name="Countrie.findByIso3">
+            <query>Select c from Countrie c where c.iso3=:iso3</query>
+        </nq>
+        <nq e="false" name="Countrie.findByIso_numeric">
+            <query>Select c from Countrie c where c.iso_numeric=:iso_numeric</query>
+        </nq>
+        <nq e="false" name="Countrie.findByFips">
+            <query>Select c from Countrie c where c.fips=:fips</query>
+        </nq>
+        <nq e="false" name="Countrie.findByName">
+            <query>Select c from Countrie c where c.name=:name</query>
+        </nq>
+        <nq e="false" name="Countrie.findByArea">
+            <query>Select c from Countrie c where c.area=:area</query>
+        </nq>
+        <nq e="false" name="Countrie.findByPopulation">
+            <query>Select c from Countrie c where c.population=:population</query>
+        </nq>
+        <nq e="false" name="Countrie.findByContinent_code">
+            <query>Select c from Countrie c where c.continent_code=:continent_code</query>
+        </nq>
+        <nq e="false" name="Countrie.findByTld">
+            <query>Select c from Countrie c where c.tld=:tld</query>
+        </nq>
+        <nq e="false" name="Countrie.findByCurrency_code">
+            <query>Select c from Countrie c where c.currency_code=:currency_code</query>
+        </nq>
+        <nq e="false" name="Countrie.findByPhone">
+            <query>Select c from Countrie c where c.phone=:phone</query>
+        </nq>
+        <nq e="false" name="Countrie.findByPostal_code_format">
+            <query>Select c from Countrie c where c.postal_code_format=:postal_code_format</query>
+        </nq>
+        <nq e="false" name="Countrie.findByPostal_code_regex">
+            <query>Select c from Countrie c where c.postal_code_regex=:postal_code_regex</query>
+        </nq>
+        <nq e="false" name="Countrie.findByLanguages">
+            <query>Select c from Countrie c where c.languages=:languages</query>
+        </nq>
+        <nq e="false" name="Countrie.findByNeighbours">
+            <query>Select c from Countrie c where c.neighbours=:neighbours</query>
+        </nq>
+        <nq e="false" name="Countrie.findByEquivalent_fips_code">
+            <query>Select c from Countrie c where c.equivalent_fips_code=:equivalent_fips_code</query>
+        </nq>
+        <nq e="false" name="Countrie.findByTime_zone">
+            <query>Select c from Countrie c where c.time_zone=:time_zone</query>
+        </nq>
+        <nq e="false" name="Countrie.findByDate_format">
+            <query>Select c from Countrie c where c.date_format=:date_format</query>
+        </nq>
+        <nq e="false" name="Countrie.findByDatetime_format">
+            <query>Select c from Countrie c where c.datetime_format=:datetime_format</query>
+        </nq>
+        <nq e="false" name="Countrie.findByBackground_image">
+            <query>Select c from Countrie c where c.background_image=:background_image</query>
+        </nq>
+        <nq e="false" name="Countrie.findByAdmin_type">
+            <query>Select c from Countrie c where c.admin_type=:admin_type</query>
+        </nq>
+        <nq e="false" name="Countrie.findByAdmin_field_active">
+            <query>Select c from Countrie c where c.admin_field_active=:admin_field_active</query>
+        </nq>
+        <nq e="false" name="Countrie.findByActive">
+            <query>Select c from Countrie c where c.active=:active</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="OptionPK" abs="false" class="Option" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_165952042802294">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="field_id" id="_165952045474097">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="value" id="_165952045654998">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="parent_id" id="_165952045788599">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lft" id="_1659520459268100">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="rgt" id="_1659520461052101">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="depth" id="_1659520462577102">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_165952042802395">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Option.findAll">
+            <query>Select e from Option e</query>
+        </nq>
+        <nq e="false" name="Option.findByField_id">
+            <query>Select o from Option o where o.field_id=:field_id</query>
+        </nq>
+        <nq e="false" name="Option.findByValue">
+            <query>Select o from Option o where o.value=:value</query>
+        </nq>
+        <nq e="false" name="Option.findByParent_id">
+            <query>Select o from Option o where o.parent_id=:parent_id</query>
+        </nq>
+        <nq e="false" name="Option.findByLft">
+            <query>Select o from Option o where o.lft=:lft</query>
+        </nq>
+        <nq e="false" name="Option.findByRgt">
+            <query>Select o from Option o where o.rgt=:rgt</query>
+        </nq>
+        <nq e="false" name="Option.findByDepth">
+            <query>Select o from Option o where o.depth=:depth</query>
+        </nq>
+        <nq e="false" name="Option.findByAttribute6">
+            <query>Select o from Option o where o.attribute6=:attribute6</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="SubadminPK" abs="false" class="Subadmin" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659520582812104">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="code" id="_1659520589405107">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="country_code" id="_1659520591199108">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659520592801109">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659520594117110">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659520582813105">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Subadmin.findAll">
+            <query>Select e from Subadmin e</query>
+        </nq>
+        <nq e="false" name="Subadmin.findByCode">
+            <query>Select e from Subadmin e where e.code=:code</query>
+        </nq>
+        <nq e="false" name="Subadmin.findByCountry_code">
+            <query>Select e from Subadmin e where e.country_code=:country_code</query>
+        </nq>
+        <nq e="false" name="Subadmin.findByName">
+            <query>Select e from Subadmin e where e.name=:name</query>
+        </nq>
+        <nq e="false" name="Subadmin.findByActive">
+            <query>Select e from Subadmin e where e.active=:active</query>
+        </nq>
+        <nq e="false" name="Subadmin.findByCode">
+            <query>Select e from Subadmin e where e.code=:code</query>
+        </nq>
+        <nq e="false" name="Subadmin.findByCountry_code">
+            <query>Select e from Subadmin e where e.country_code=:country_code</query>
+        </nq>
+        <nq e="false" name="Subadmin.findByAttribute6">
+            <query>Select e from Subadmin e where e.attribute6=:attribute6</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="Subadmin2PK" abs="false" class="Subadmin2" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659520664532114">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="code" id="_1659520667277117">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="country_code" id="_1659520668654118">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="subadmin1_code" id="_1659520670199119">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659520671854120">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659520673260121">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659520664532115">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Subadmin2.findAll">
+            <query>Select e from Subadmin2 e</query>
+        </nq>
+        <nq e="false" name="Subadmin2.findByCode">
+            <query>Select e from Subadmin2 e where e.code=:code</query>
+        </nq>
+        <nq e="false" name="Subadmin2.findByCountry_code">
+            <query>Select e from Subadmin2 e where e.country_code=:country_code</query>
+        </nq>
+        <nq e="false" name="Subadmin2.findBySubadmin1_code">
+            <query>Select e from Subadmin2 e where e.subadmin1_code=:subadmin1_code</query>
+        </nq>
+        <nq e="false" name="Subadmin2.findByName">
+            <query>Select e from Subadmin2 e where e.name=:name</query>
+        </nq>
+        <nq e="false" name="Subadmin2.findByActive">
+            <query>Select e from Subadmin2 e where e.active=:active</query>
+        </nq>
+        <nq e="false" name="Subadmin2.findByAttribute5">
+            <query>Select e from Subadmin2 e where e.attribute5=:attribute5</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="CitiePK" abs="false" class="Citie" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659520964225123">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="country_code" id="_1659520990599126">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="name" id="_1659520992534127">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="longitude" id="_1659520993899128">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="latitude" id="_1659520995540129">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="feature_class" id="_1659520996878130">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="feature_code" id="_1659520998684131">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="subadmin1_code" id="_1659520999805132">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="subadmin2_code" id="_1659521005317133">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="population" id="_1659521006900134">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="time_zone" id="_1659521109810135">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659521111701136">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659520964226124">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Citie.findAll">
+            <query>Select e from Citie e</query>
+        </nq>
+        <nq e="false" name="Citie.findByCountry_code">
+            <query>Select c from Citie c where c.country_code=:country_code</query>
+        </nq>
+        <nq e="false" name="Citie.findByName">
+            <query>Select c from Citie c where c.name=:name</query>
+        </nq>
+        <nq e="false" name="Citie.findByLongitude">
+            <query>Select c from Citie c where c.longitude=:longitude</query>
+        </nq>
+        <nq e="false" name="Citie.findByLatitude">
+            <query>Select c from Citie c where c.latitude=:latitude</query>
+        </nq>
+        <nq e="false" name="Citie.findByFeature_class">
+            <query>Select c from Citie c where c.feature_class=:feature_class</query>
+        </nq>
+        <nq e="false" name="Citie.findByFeature_code">
+            <query>Select c from Citie c where c.feature_code=:feature_code</query>
+        </nq>
+        <nq e="false" name="Citie.findBySubadmin1_code">
+            <query>Select c from Citie c where c.subadmin1_code=:subadmin1_code</query>
+        </nq>
+        <nq e="false" name="Citie.findBySubadmin2_code">
+            <query>Select c from Citie c where c.subadmin2_code=:subadmin2_code</query>
+        </nq>
+        <nq e="false" name="Citie.findByPopulation">
+            <query>Select c from Citie c where c.population=:population</query>
+        </nq>
+        <nq e="false" name="Citie.findByTime_zone">
+            <query>Select c from Citie c where c.time_zone=:time_zone</query>
+        </nq>
+        <nq e="false" name="Citie.findByActive">
+            <query>Select c from Citie c where c.active=:active</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PostPK" abs="false" class="Post" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659521128702137">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="country_code" id="_1659521202778140">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="user_id" id="_1659521204421141">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="category_id" id="_1659521206060142">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="post_type_id" id="_1659521207437143">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="title" id="_1659521208973144">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="description" id="_1659521210425145">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="tags" id="_1659521212792146">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="price" id="_1659521248344147">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="negotiable" id="_1659521250645148">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="contact_name" id="_1659521253318149">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="email" id="_1659521254859150">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="phone" id="_1659521256782151">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="phone_hidden" id="_1659521258525152">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="address" id="_1659521330270153">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="city_id" id="_1659521331597154">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lon" id="_1659521337376155">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="lat" id="_1659521338965156">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="ip_addr" id="_1659521376149157">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="visits" id="_1659521377502158">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="email_token" id="_1659521378761159">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="phone_token" id="_1659521382075161">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="tmp_token" id="_1659521871161168">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="verified_email" id="_1659521406422162">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="verified_phone" id="_1659521407903163">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="accept_terms" id="_1659521410537164">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="accept_marketing_offers" id="_1659521412470165">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="is_permanent" id="_1659521438261166">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="reviewed" id="_1659521439334167">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="featured" id="_1659521901324169">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="archived" id="_1659521902863170">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="archived_at" id="_1659521904543171">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="archived_manually" id="_1659521906190172">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="deletion_mail_sent_at" id="_1659521924884173">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="fb_profile" id="_1659521926158174">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="partner" id="_1659521927133175">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="deleted_at" id="_1659521964116176">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659521128702138">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Post.findAll">
+            <query>Select e from Post e</query>
+        </nq>
+        <nq e="false" name="Post.findByCountry_code">
+            <query>Select p from Post p where p.country_code=:country_code</query>
+        </nq>
+        <nq e="false" name="Post.findByUser_id">
+            <query>Select p from Post p where p.user_id=:user_id</query>
+        </nq>
+        <nq e="false" name="Post.findByCategory_id">
+            <query>Select p from Post p where p.category_id=:category_id</query>
+        </nq>
+        <nq e="false" name="Post.findByPost_type_id">
+            <query>Select p from Post p where p.post_type_id=:post_type_id</query>
+        </nq>
+        <nq e="false" name="Post.findByTitle">
+            <query>Select p from Post p where p.title=:title</query>
+        </nq>
+        <nq e="false" name="Post.findByDescription">
+            <query>Select p from Post p where p.description=:description</query>
+        </nq>
+        <nq e="false" name="Post.findByTags">
+            <query>Select p from Post p where p.tags=:tags</query>
+        </nq>
+        <nq e="false" name="Post.findByPrice">
+            <query>Select p from Post p where p.price=:price</query>
+        </nq>
+        <nq e="false" name="Post.findByNegotiable">
+            <query>Select p from Post p where p.negotiable=:negotiable</query>
+        </nq>
+        <nq e="false" name="Post.findByContact_name">
+            <query>Select p from Post p where p.contact_name=:contact_name</query>
+        </nq>
+        <nq e="false" name="Post.findByEmail">
+            <query>Select p from Post p where p.email=:email</query>
+        </nq>
+        <nq e="false" name="Post.findByPhone">
+            <query>Select p from Post p where p.phone=:phone</query>
+        </nq>
+        <nq e="false" name="Post.findByPhone_hidden">
+            <query>Select p from Post p where p.phone_hidden=:phone_hidden</query>
+        </nq>
+        <nq e="false" name="Post.findByAddress">
+            <query>Select p from Post p where p.address=:address</query>
+        </nq>
+        <nq e="false" name="Post.findByCity_id">
+            <query>Select p from Post p where p.city_id=:city_id</query>
+        </nq>
+        <nq e="false" name="Post.findByLon">
+            <query>Select p from Post p where p.lon=:lon</query>
+        </nq>
+        <nq e="false" name="Post.findByLat">
+            <query>Select p from Post p where p.lat=:lat</query>
+        </nq>
+        <nq e="false" name="Post.findByIp_addr">
+            <query>Select p from Post p where p.ip_addr=:ip_addr</query>
+        </nq>
+        <nq e="false" name="Post.findByVisits">
+            <query>Select p from Post p where p.visits=:visits</query>
+        </nq>
+        <nq e="false" name="Post.findByEmail_token">
+            <query>Select p from Post p where p.email_token=:email_token</query>
+        </nq>
+        <nq e="false" name="Post.findByPhone_token">
+            <query>Select p from Post p where p.phone_token=:phone_token</query>
+        </nq>
+        <nq e="false" name="Post.findByVerified_email">
+            <query>Select p from Post p where p.verified_email=:verified_email</query>
+        </nq>
+        <nq e="false" name="Post.findByVerified_phone">
+            <query>Select p from Post p where p.verified_phone=:verified_phone</query>
+        </nq>
+        <nq e="false" name="Post.findByAccept_terms">
+            <query>Select p from Post p where p.accept_terms=:accept_terms</query>
+        </nq>
+        <nq e="false" name="Post.findByAccept_marketing_offers">
+            <query>Select p from Post p where p.accept_marketing_offers=:accept_marketing_offers</query>
+        </nq>
+        <nq e="false" name="Post.findByIs_permanent">
+            <query>Select p from Post p where p.is_permanent=:is_permanent</query>
+        </nq>
+        <nq e="false" name="Post.findByReviewed">
+            <query>Select p from Post p where p.reviewed=:reviewed</query>
+        </nq>
+        <nq e="false" name="Post.findByTmp_token">
+            <query>Select p from Post p where p.tmp_token=:tmp_token</query>
+        </nq>
+        <nq e="false" name="Post.findByFeatured">
+            <query>Select p from Post p where p.featured=:featured</query>
+        </nq>
+        <nq e="false" name="Post.findByArchived">
+            <query>Select p from Post p where p.archived=:archived</query>
+        </nq>
+        <nq e="false" name="Post.findByArchived_at">
+            <query>Select p from Post p where p.archived_at=:archived_at</query>
+        </nq>
+        <nq e="false" name="Post.findByArchived_manually">
+            <query>Select p from Post p where p.archived_manually=:archived_manually</query>
+        </nq>
+        <nq e="false" name="Post.findByDeletion_mail_sent_at">
+            <query>Select p from Post p where p.deletion_mail_sent_at=:deletion_mail_sent_at</query>
+        </nq>
+        <nq e="false" name="Post.findByFb_profile">
+            <query>Select p from Post p where p.fb_profile=:fb_profile</query>
+        </nq>
+        <nq e="false" name="Post.findByPartner">
+            <query>Select p from Post p where p.partner=:partner</query>
+        </nq>
+        <nq e="false" name="Post.findByDeleted_at">
+            <query>Select p from Post p where p.deleted_at=:deleted_at</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="SavedPostPK" abs="false" class="SavedPost" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659522109913177">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="user_id" id="_1659522158326180">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="post_id" id="_1659522159461181">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659522109913178">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="SavedPost.findAll">
+            <query>Select e from SavedPost e</query>
+        </nq>
+        <nq e="false" name="SavedPost.findByUser_id">
+            <query>Select s from SavedPost s where s.user_id=:user_id</query>
+        </nq>
+        <nq e="false" name="SavedPost.findByPost_id">
+            <query>Select s from SavedPost s where s.post_id=:post_id</query>
+        </nq>
+        <nq e="false" name="SavedPost.findByAttribute2">
+            <query>Select s from SavedPost s where s.attribute2=:attribute2</query>
+        </nq>
+        <nq e="false" name="SavedPost.findByAttribute3">
+            <query>Select s from SavedPost s where s.attribute3=:attribute3</query>
+        </nq>
+        <nq e="false" name="SavedPost.findByAttribute4">
+            <query>Select s from SavedPost s where s.attribute4=:attribute4</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="SavedSearchPK" abs="false" class="SavedSearch" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659522216972185">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="country_code" id="_1659522249035188">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="user_id" id="_1659522250759189">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="keyword" id="_1659522252142190">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="query" id="_1659522253360191">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="count" id="_1659522255569192">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659522216973186">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="SavedSearch.findAll">
+            <query>Select e from SavedSearch e</query>
+        </nq>
+        <nq e="false" name="SavedSearch.findByCountry_code">
+            <query>Select s from SavedSearch s where s.country_code=:country_code</query>
+        </nq>
+        <nq e="false" name="SavedSearch.findByUser_id">
+            <query>Select s from SavedSearch s where s.user_id=:user_id</query>
+        </nq>
+        <nq e="false" name="SavedSearch.findByKeyword">
+            <query>Select s from SavedSearch s where s.keyword=:keyword</query>
+        </nq>
+        <nq e="false" name="SavedSearch.findByQuery">
+            <query>Select s from SavedSearch s where s.query=:query</query>
+        </nq>
+        <nq e="false" name="SavedSearch.findByCount">
+            <query>Select s from SavedSearch s where s.count=:count</query>
+        </nq>
+        <nq e="false" name="SavedSearch.findByAttribute5">
+            <query>Select s from SavedSearch s where s.attribute5=:attribute5</query>
+        </nq>
+        <nq e="false" name="SavedSearch.findByAttribute6">
+            <query>Select s from SavedSearch s where s.attribute6=:attribute6</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="ThreadPK" abs="false" class="Thread" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659522551933195">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="post_id" id="_1659522574479198">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="subject" id="_1659522576552199">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="deleted_by" id="_1659522578210200">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="deleted_at" id="_1659522579494201">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659522551934196">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Thread.findAll">
+            <query>Select e from Thread e</query>
+        </nq>
+        <nq e="false" name="Thread.findByPost_id">
+            <query>Select t from Thread t where t.post_id=:post_id</query>
+        </nq>
+        <nq e="false" name="Thread.findBySubject">
+            <query>Select t from Thread t where t.subject=:subject</query>
+        </nq>
+        <nq e="false" name="Thread.findByDeleted_by">
+            <query>Select t from Thread t where t.deleted_by=:deleted_by</query>
+        </nq>
+        <nq e="false" name="Thread.findByDeleted_at">
+            <query>Select t from Thread t where t.deleted_at=:deleted_at</query>
+        </nq>
+        <nq e="false" name="Thread.findByAttribute4">
+            <query>Select t from Thread t where t.attribute4=:attribute4</query>
+        </nq>
+        <nq e="false" name="Thread.findByAttribute5">
+            <query>Select t from Thread t where t.attribute5=:attribute5</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="ThreadMessagePK" abs="false" class="ThreadMessage" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659522692446204">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="thread_id" id="_1659522737839207">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="user_id" id="_1659522739256208">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="body" id="_1659522740883209">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="filename" id="_1659522742688210">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="deleted_by" id="_1659522744189211">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="deleted_at" id="_1659522745424212">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659522692447205">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="ThreadMessage.findAll">
+            <query>Select e from ThreadMessage e</query>
+        </nq>
+        <nq e="false" name="ThreadMessage.findByThread_id">
+            <query>Select t from ThreadMessage t where t.thread_id=:thread_id</query>
+        </nq>
+        <nq e="false" name="ThreadMessage.findByUser_id">
+            <query>Select t from ThreadMessage t where t.user_id=:user_id</query>
+        </nq>
+        <nq e="false" name="ThreadMessage.findByBody">
+            <query>Select t from ThreadMessage t where t.body=:body</query>
+        </nq>
+        <nq e="false" name="ThreadMessage.findByFilename">
+            <query>Select t from ThreadMessage t where t.filename=:filename</query>
+        </nq>
+        <nq e="false" name="ThreadMessage.findByDeleted_by">
+            <query>Select t from ThreadMessage t where t.deleted_by=:deleted_by</query>
+        </nq>
+        <nq e="false" name="ThreadMessage.findByDeleted_at">
+            <query>Select t from ThreadMessage t where t.deleted_at=:deleted_at</query>
+        </nq>
+        <nq e="false" name="ThreadMessage.findByAttribute6">
+            <query>Select t from ThreadMessage t where t.attribute6=:attribute6</query>
+        </nq>
+        <nq e="false" name="ThreadMessage.findByAttribute7">
+            <query>Select t from ThreadMessage t where t.attribute7=:attribute7</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="ThreadParticipantPK" abs="false" class="ThreadParticipant" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659522801871215">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="thread_id" id="_1659522846925218">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="user_id" id="_1659522849455219">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="last_read" id="_1659522851384220">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="is_important" id="_1659522853778221">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="deleted_at" id="_1659522877695222">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659522801872216">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="ThreadParticipant.findAll">
+            <query>Select e from ThreadParticipant e</query>
+        </nq>
+        <nq e="false" name="ThreadParticipant.findByThread_id">
+            <query>Select e from ThreadParticipant e where e.thread_id=:thread_id</query>
+        </nq>
+        <nq e="false" name="ThreadParticipant.findByUser_id">
+            <query>Select e from ThreadParticipant e where e.user_id=:user_id</query>
+        </nq>
+        <nq e="false" name="ThreadParticipant.findByLast_read">
+            <query>Select e from ThreadParticipant e where e.last_read=:last_read</query>
+        </nq>
+        <nq e="false" name="ThreadParticipant.findByIs_important">
+            <query>Select e from ThreadParticipant e where e.is_important=:is_important</query>
+        </nq>
+        <nq e="false" name="ThreadParticipant.findByDeleted_at">
+            <query>Select e from ThreadParticipant e where e.deleted_at=:deleted_at</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PaymentPK" abs="false" class="Payment" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659522911560223">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="post_id" id="_1659522927744226">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="package_id" id="_1659522933442227">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="payment_method_id" id="_1659522934911228">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="transaction_id" id="_1659522936459229">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="amount" id="_1659522938452230">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659522960776231">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659522911561224">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Payment.findAll">
+            <query>Select e from Payment e</query>
+        </nq>
+        <nq e="false" name="Payment.findByPost_id">
+            <query>Select p from Payment p where p.post_id=:post_id</query>
+        </nq>
+        <nq e="false" name="Payment.findByPackage_id">
+            <query>Select p from Payment p where p.package_id=:package_id</query>
+        </nq>
+        <nq e="false" name="Payment.findByPayment_method_id">
+            <query>Select p from Payment p where p.payment_method_id=:payment_method_id</query>
+        </nq>
+        <nq e="false" name="Payment.findByTransaction_id">
+            <query>Select p from Payment p where p.transaction_id=:transaction_id</query>
+        </nq>
+        <nq e="false" name="Payment.findByAmount">
+            <query>Select p from Payment p where p.amount=:amount</query>
+        </nq>
+        <nq e="false" name="Payment.findByActive">
+            <query>Select p from Payment p where p.active=:active</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PicturePK" abs="false" class="Picture" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659522980901232">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="post_id" id="_1659522994601235">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="filename" id="_1659522996071236">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="mime_type" id="_1659522997944237">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="position" id="_1659522999834238">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="active" id="_1659523001806239">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659522980901233">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Picture.findAll">
+            <query>Select e from Picture e</query>
+        </nq>
+        <nq e="false" name="Picture.findByPost_id">
+            <query>Select p from Picture p where p.post_id=:post_id</query>
+        </nq>
+        <nq e="false" name="Picture.findByFilename">
+            <query>Select p from Picture p where p.filename=:filename</query>
+        </nq>
+        <nq e="false" name="Picture.findByMime_type">
+            <query>Select p from Picture p where p.mime_type=:mime_type</query>
+        </nq>
+        <nq e="false" name="Picture.findByPosition">
+            <query>Select p from Picture p where p.position=:position</query>
+        </nq>
+        <nq e="false" name="Picture.findByActive">
+            <query>Select p from Picture p where p.active=:active</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PostValuePK" abs="false" class="PostValue" v="true" jbn="false" xre="false" m="false" rootElement="_16592621652201" id="_1659523023002240">
+        <ath>EADN_PC</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" xvt="" name="post_id" id="_1659523038260243">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="field_id" id="_1659523051632244">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="option_id" id="_1659523053256245">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="value" id="_1659523054600246">
+                <xwm/>
+                <xm/>
+            </basic>
+            <id attribute-type="Long" v="true" xvt="" name="id" id="_1659523023002241">
+                <xwm/>
+                <xm/>
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="PostValue.findAll">
+            <query>Select e from PostValue e</query>
+        </nq>
+        <nq e="false" name="PostValue.findByPost_id">
+            <query>Select p from PostValue p where p.post_id=:post_id</query>
+        </nq>
+        <nq e="false" name="PostValue.findByField_id">
+            <query>Select p from PostValue p where p.field_id=:field_id</query>
+        </nq>
+        <nq e="false" name="PostValue.findByOption_id">
+            <query>Select p from PostValue p where p.option_id=:option_id</query>
+        </nq>
+        <nq e="false" name="PostValue.findByValue">
+            <query>Select p from PostValue p where p.value=:value</query>
+        </nq>
+        <nq e="false" name="PostValue.findByAttribute3">
+            <query>Select p from PostValue p where p.attribute3=:attribute3</query>
+        </nq>
+    </entity>
+    <c>
+        <ct>java.util.List</ct>
+        <ct>java.util.Set</ct>
+        <ct>java.util.Map</ct>
+        <ct>java.util.Collection</ct>
+        <cit>java.util.ArrayList</cit>
+        <cit>java.util.LinkedList</cit>
+        <cit>java.util.HashSet</cit>
+        <cit>java.util.TreeSet</cit>
+        <cit>java.util.HashMap</cit>
+    </c>
+    <wsl>
+        <ws n="Main" id="_16592621652202">
+            <i ref="_1659357910335120" x="742" y="712"/>
+            <i ref="_165952042802294" x="1133" y="873"/>
+            <i ref="_165951982673758" x="245" y="149"/>
+            <i ref="_1659379478489192" x="390" y="883"/>
+            <i ref="_1659385353262214" x="390" y="471"/>
+            <i ref="_165951909770643" x="438" y="326"/>
+            <i ref="_1659520582812104" x="1092" y="534"/>
+            <i ref="_1659380046757202" x="377" y="88"/>
+            <i ref="_165934994760961" x="907" y="258"/>
+            <i ref="_1659522216972185" x="699" y="551"/>
+            <i ref="_16592654025743" x="914" y="727"/>
+            <i ref="_165930550134434" x="555" y="88"/>
+            <i ref="_165935306174882" x="1133" y="240"/>
+            <i ref="_1659522911560223" x="637" y="796"/>
+            <i ref="_1659522980901232" x="1097" y="817"/>
+            <i ref="_165952009851868" x="488" y="464"/>
+            <i ref="_1659523023002240" x="553" y="592"/>
+            <i ref="_1659520664532114" x="711" y="495"/>
+            <i ref="_1659520964225123" x="1097" y="637"/>
+            <i ref="_1659353432048106" x="57" y="314"/>
+            <i ref="_1659522801871215" x="902" y="932"/>
+            <i ref="_165934926705235" x="951" y="56"/>
+            <i ref="_165935014228671" x="347" y="817"/>
+            <i ref="_1659377823324187" x="718" y="316"/>
+            <i ref="_1659522551933195" x="664" y="534"/>
+            <i ref="_1659358578670144" x="1117" y="553"/>
+            <i ref="_1659522109913177" x="1097" y="642"/>
+            <i ref="_165934899153427" x="1124" y="101"/>
+            <i ref="_165951940702548" x="471" y="355"/>
+            <i ref="_1659377251842167" x="772" y="495"/>
+            <i ref="_1659357525688111" x="1117" y="653"/>
+            <i ref="_165935335508994" x="36" y="33"/>
+            <i ref="_1659521128702137" x="540" y="406"/>
+            <i ref="_165934963986341" x="36" y="495"/>
+            <i ref="_1659377451765173" x="917" y="642"/>
+            <i ref="_165934884477513" x="699" y="43"/>
+            <i ref="_1659380088297206" x="367" y="226"/>
+            <i ref="_1659522692446204" x="1081" y="911"/>
+        </ws>
+    </wsl>
+</entity-mappings>
